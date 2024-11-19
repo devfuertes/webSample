@@ -1,0 +1,12 @@
+{
+  "name": "websample",
+  "version": "1.0.0",
+  "description": "- Crear un documento HTML con la estructura básica (sample1.html)\r - Agregar un comentario al inicio del documento\r - Agregar un título a la página\r - Agregar varios párrafo\r - Agregar un titulo a las listas siguiente\r - Agregar una lista desordenada con 3 elementos\r - Agrega una lista desordenada con 3 elementos cada uno\r con una lista anidada con 3 elementos\r - Agrega un título al resto de la página\r - Agregar alguna imagen con un texto alternativo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
