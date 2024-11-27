@@ -1,0 +1,17 @@
+
+h1,h2{
+    color: rgb(156, 194, 156);
+    font-weight: 900;
+    background-color: rgb(38, 42, 54);
+    padding: 0.4em;
+}
+
+p{
+
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+    
+}
