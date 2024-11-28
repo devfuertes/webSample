@@ -1,17 +1,53 @@
+:root {
+    /*
+    En root se crean las variables de color, fuentes y escalas de tamaños
+    */
 
-h1,h2{
+    --color-primary: rgb(13, 12, 20);
+    --color-secondary: rgb(45, 99, 63);
+    --color-hover: rgb(40, 177, 86);
+
+    --font-global: font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --size-xl: 2.5rem;
+
+}
+
+
+
+h1,
+h2 {
     color: rgb(156, 194, 156);
     font-weight: 900;
     background-color: rgb(38, 42, 54);
     padding: 0.4em;
+    font-family: var(--font-global)
 }
 
-p{
+h1{
+    font-size: var(--size-xl);
+}
+
+p {
 
     width: 50%;
 }
 
-ul{
+ul {
     list-style: none;
-    
+
 }
+
+/*
+:nth-child(2n){ selecciona pares
+
+}
+
+[title ^='párrafo'] selecciona los que empiecen por párrafo
+[title $='párrafo'] selecciona los que terminen por párrafo
+[title *='párrafo'] selecciona los que contengan párrafo
+
+:where(section, article) ----> where le quita especificidad
+:is(section, article) :is(h1, h2, h3) ----> toma una lista de selectores y selecciona los elementos
+a:has(> img) {} ----> selecciona los elementos(hijo) que contiene el selector
+
+*/
