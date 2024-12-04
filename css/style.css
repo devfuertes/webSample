@@ -64,7 +64,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
+    align-items: baseline ;
     
     
     
@@ -118,3 +118,5 @@ p{
     text-align: center;
     
 }
+
+
