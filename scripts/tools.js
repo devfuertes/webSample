@@ -6,16 +6,43 @@
 // letras minúsculas
 // y números.
 
-function passwordRandom() {
+// //Código del Profesor
 
-    const letters = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz1234567890'
-    passGenerate = ''
+// function randomDigit() {
+//     return Math.trunc(Math.random() * 10);
+// }
+
+// function randomInInterval(min, max) {
+//     return Math.trunc(Math.random() * (max + 1 - min) + min);
+// }
+
+// function randomLetter() {
+//     const letters = "abcdefghijklmnñopqrstuvwxyz";
+//     return letters[randomInInterval(0, letters.length - 1)];
+// }
+
+// export function generatePassword() {
+//     for (let i = 0; i < 2; i++) {
+//         const result = "";
+//         result += randomInInterval(0, 9);
+//         result += randomLetter();
+//         result += randomLetter().toUpperCase;
+//     }
+//     return result;
+// }
+
+// console.log("password", generatePassword());
+
+function passwordRandom() {
+    const letters =
+        "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz1234567890";
+    passGenerate = "";
 
     for (let i = 0; i <= 10; i++) {
         let numberLettersRandom = Math.floor(Math.random() * letters.length);
-        passGenerate += letters[numberLettersRandom]
-}
-return passGenerate;
+        passGenerate += letters[numberLettersRandom];
+    }
+    return passGenerate;
 }
 
-console.log(passwordRandom()); 
+console.log(passwordRandom());
